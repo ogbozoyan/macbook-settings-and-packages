@@ -1,0 +1,5 @@
+maccy 0.31.0
+only-switch 2.5.4
+podman-desktop 1.9.1
+monitorcontrol 4.1.0
+xquartz 2.8.5
