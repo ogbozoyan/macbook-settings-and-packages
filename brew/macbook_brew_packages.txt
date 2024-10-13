@@ -195,3 +195,4 @@ zsh-syntax-highlighting 0.8.0
 vde 2.3.3
 zimg 3.0.5
 zstd 1.5.5 1.5.6
+gradle
