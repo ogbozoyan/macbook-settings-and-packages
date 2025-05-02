@@ -23,8 +23,8 @@ git push origin main >> "$LOG_FILE" 2>&1
 # -------------------------
 # Step 3: Ensure cron job exists
 # -------------------------
-CRON_JOB="30 6 * * * $REPO_DIR/setup_brew_backup.sh"
-( crontab -l 2>/dev/null | grep -F "$REPO_DIR/setup_brew_backup.sh" ) >/dev/null
+CRON_JOB="30 6 * * * $REPO_DIR/brew_backup.sh.sh"
+( crontab -l 2>/dev/null | grep -F "$REPO_DIR/brew_backup.sh.sh" ) >/dev/null
 
 # shellcheck disable=SC2181
 if [ $? -ne 0 ]; then
