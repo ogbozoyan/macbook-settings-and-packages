@@ -10,7 +10,7 @@ DATE=$(date "+%Y-%m-%d %H:%M:%S")
 # Step 1: Dump Homebrew bundle
 # -------------------------
 mkdir -p "$(dirname "$BUNDLE_FILE")"
-brew bundle dump --file="$BUNDLE_FILE" --force
+brew bundle dump --file="$BUNDLE_FILE"
 
 # -------------------------
 # Step 2: Git commit and push
